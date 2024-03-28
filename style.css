@@ -1,0 +1,36 @@
+body{
+    background-color:#2692d1 ;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#quote-display{
+    height: 100px;
+    width: 500px;
+    font-size: 20px;
+    background-color: white;
+    color:#2692d1;
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 7px;
+    border-style: none;
+    color: #2692d1;
+    font-size: 20px;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
